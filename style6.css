@@ -1,0 +1,13 @@
+p {
+    border: 2px solid black; /* width, style, color */
+  }
+  
+  p {
+    border-style: dotted; /* Other options: dashed, double, groove */
+  }
+  
+  p {
+    border-radius: 10px;
+  }
+  
+  
