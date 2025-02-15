@@ -1,0 +1,35 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    margin-bottom: 1.5rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Text shadow */
+p {
+    text-shadow: 2px 2px 5px gray;
+    margin-bottom: 1rem;
+}
+
+/* Box shadow */
+.box-shadow {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
