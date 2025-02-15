@@ -1,0 +1,71 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    margin-bottom: 1.5rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.bg-color {
+    background-color: lightblue;
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.bg-image {
+    background-image: url("https://images.unsplash.com/photo-1682687220742-aba13b6e50ba");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    margin: 1rem 0;
+    min-height: 200px;
+}
+
+.bg-size {
+    background-image: url("https://images.unsplash.com/photo-1682687220198-88e9bdea9931"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    margin: 1rem 0;
+    min-height: 200px;
+}
+
+.bg-attachment {
+    background-image: url("https://images.unsplash.com/photo-1682687221080-5cb261c645cb");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    margin: 1rem 0;
+    min-height: 200px;
+}
+
+.bg-position {
+    background-image: url("https://images.unsplash.com/photo-1682687220063-4742bd7fd538");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    margin: 1rem 0;
+    min-height: 200px;
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, red, blue);
+    padding: 2rem;
+    margin: 1rem 0;
+    color: white;
+}
