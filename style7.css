@@ -1,0 +1,19 @@
+div {
+    margin: 20px; /* All sides */
+  }
+  
+  div {
+    padding: 15px; /* All sides */
+  }
+  
+
+  div {
+    box-sizing: border-box;
+  }
+
+  div {
+    width: 200px;
+    height: 100px;
+  }
+
+  
