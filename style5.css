@@ -1,0 +1,61 @@
+/* Named colors */
+p {
+    color: red;
+  }
+
+/* RGB color values */
+  p {
+    color: rgb(255, 0, 0); /* Red */
+  }
+
+/* Hexadecimal color values */
+  p {
+    color: #ff0000; /* Red */
+  }
+
+/* HSL color values */
+  p {
+    color: hsl(0, 100%, 50%); /* Red */
+  }
+
+/* RGBA color values with transparency */
+  p {
+    color: rgba(255, 0, 0, 0.5); /* Red with 50% transparency */
+  }
+  
+/* HSLA color values with transparency */
+  p {
+    color: hsla(0, 100%, 50%, 0.5); /* Red with 50% transparency */
+  }
+
+/* CSS units - pixels */
+  p {
+    font-size: 16px;
+  }
+
+/* Percentage units */
+  div {
+    width: 50%;
+  }
+  
+/* REM units - relative to root element html */
+  p {
+    font-size: 1.5rem; /* 1.5 times root font size */
+  }
+  
+/* EM units - relative to parent element */
+  p {
+    font-size: 2em; /* 2 times the parent's font size */
+  }
+
+/* Viewport units */
+  div {
+    width: 50vw; /* 50% of viewport width */
+    height: 50vh; /* 50% of viewport height */
+  }
+
+/* CSS min and max functions */
+  div {
+    width: min(400px, 50%);
+    height: max(200px, 20vh);
+  }
